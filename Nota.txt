@@ -1,0 +1,2 @@
+Nota: Versión final del proyecto
+Para añadir la imagen de un platillo para el menú abrir carpeta Admin --> img
