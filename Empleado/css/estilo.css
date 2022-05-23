@@ -1,0 +1,382 @@
+
+a.menu_inhab{
+	display: none;
+}
+
+body{
+	font-family: Verdana, Helvetica, Arial, "Times New Roman";
+	color: MidnightBlue;
+}
+
+header.principal {
+	padding-top: 0.05em;
+	height: 5.5em;
+	color: hsl(194, 88%, 45%);
+	font-size: large;
+	background-color: rgba(255, 255, 255, 0.5);/*Blanco con transparencia*/
+	text-transform: capitalize;
+	text-shadow: 0.3em 0.3em 0.6em rgb(13, 148, 226); /*sombra horizontal y sombra vertical*/
+}
+
+#logo_emp{
+	animation-name: mueve;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	}
+	
+	@keyframes mueve {
+	25% {transform: translate(calc(25vw),0em);}
+	50% {transform: translate(calc(50vw),0em);}
+	75% {transform: translate(calc(75vw),0em);}
+	100% {transform: translate(calc(100vw),0em);}
+	}
+
+label{
+    padding-top: 0.05em;
+	height: 5.5em;
+	color: hsl(187, 90%, 50%);
+	font-size: large;
+	background-color: rgba(255, 255, 255, 0.5);/*Blanco con transparencia*/
+	text-transform: capitalize;
+	text-shadow: 0.3em 0.3em 0.6em rgb(13, 226, 127); /*sombra horizontal y sombra vertical*/
+}
+
+nav {
+    width: 100%;
+	text-align:center;
+	border:0;
+	height: 2em;
+	background-color:rgb(13, 166, 226);
+	padding: 0.05em;
+	position:block;
+	top:6.5em;
+	box-sizing: border-box;
+}
+
+a:link{color:rgb(0, 0, 0);}
+a:visited{color:rgb(2, 2, 2); font-weight: lighter;}
+a:hover{color:rgb(0, 0, 0); font-weight: bold;}
+a.menu{
+	display: inline;
+	padding: 1em; /*Separa nav*/
+	width: 10%;
+}
+
+a.menu2{
+	display: inline;
+	padding:0em; /*Separa nav*/
+	width: 10%;
+}
+
+a.menu_inhab{
+	display: none;
+}
+
+main {
+	padding: 1em;
+	border:0;
+	height: auto;
+	background-color:rgb(255, 255, 254);
+	text-transform: none;
+	box-sizing: border-box;
+}
+
+div.centro{
+	height: auto;
+	min-height: 26em;
+	display: grid;
+    grid-template-columns: 6fr 1fr;
+	grid-gap: 0;
+	box-sizing: border-box;
+	position: static;
+	overflow: auto;
+    padding: 0.05em;
+    
+}
+
+div.centro2{
+	height: auto;
+	min-height: 24em;
+	display: grid;
+    grid-template-columns: 2fr 4fr;
+	grid-gap: 0;
+	box-sizing: border-box;
+	position: static;
+	overflow: auto;
+    padding: 0.05em;
+}
+
+div.centro3{
+	height: auto;
+	min-height: 24em;
+	display: grid;
+    grid-template-columns: 2fr 2fr;
+	grid-gap: 0;
+	box-sizing: border-box;
+	position: static;
+	overflow: auto;
+    padding: 0.05em;
+}
+
+div.marcopeque{
+    border: 0.5em solid #10d2ec;
+    width: 25em; /* ancho */
+	height: auto; /*altura*/
+    margin: 0.4em; 
+}
+
+section{
+	text-align: justify;
+	box-sizing: border-box;
+}
+
+aside{
+	background-color:rgb(255, 255, 255);
+    text-align: center;
+	float: right;
+}
+
+footer{
+	width: 100%;
+	font-size: 75%;
+	padding: 0.625em 0.9em 1.4em;
+	background-color:rgb(14, 163, 168);
+	text-align: center;
+	height: auto;
+	min-height: 2em;
+	box-sizing: border-box;
+}
+
+input.centra{
+    display: table-cell;
+    vertical-align: middle;
+	margin-left: 19em;
+	margin-right: auto;
+	position:static;
+}
+
+button.centra2{
+    display: table-cell;
+    vertical-align: middle;
+	margin-left: 13em;
+	margin-right: auto;
+	position:static;
+}
+
+input.d{
+    display: table-cell;
+    vertical-align: middle;
+	margin-left: 15em;
+	margin-right: auto;
+	position:static;
+	margin: 5em;
+}
+
+input.centrab{
+    display: table-cell;
+    vertical-align: middle;
+	margin-left: 17.5em;
+	margin-right: auto;
+	position:static;
+}
+
+button.centrab{
+    display: table-cell;
+    vertical-align: middle;
+	margin-left: 12em;
+	margin-right: auto;
+	position:static;
+}
+
+table.marco{
+    border: 0.625em solid #10c0ec;
+	display:inline-flex;
+	margin-left: 8em;
+}
+
+table.marco2{
+    border: 0.625em solid #15edf5;
+	display:inline-flex;
+}
+
+p.marcot{
+    border: 0.5em solid #10ddec;
+    width: 30em; /* ancho */
+	height: 11em; /*altura*/
+    margin: 0.4em; 
+}
+
+p.marcot2{
+    border: 0.5em solid #10e5ec;
+    width: 2fr; /* ancho */
+	height: 11em; /*altura*/
+    margin: 0.4em; 
+}
+
+img.derecha{
+	margin-left: 26.8em;
+	position:relative;
+	display: block;
+
+}
+
+img.derecha2{
+	margin-left: 21.5em;
+	position:absolute;
+	display: inline-block;
+	
+	}
+
+div.marco{
+	width: 20em; /* ancho */
+	height:10em; /*altura*/
+	/**min-height: 20em;*/
+	background-color: #ffffff; /*fondo*/
+	margin: 0.125em 3.125em; /*margenes externos, primera medida margen arriba y abajo, segunda medida margen a los lados */
+	padding: 0.625em; /*mergen interno. importante */
+	border: 0.625em solid #101fec; /*borde */
+	display: inline-block; /*bloque que se puede expandir se localiza a lado del otro bloque */
+	position: relative;
+	top: 0; /*arriba hacia abajo*/
+	bottom:0;
+	right: 0;
+	/**left: 7.5em /*de derecha a izquierda*/
+	margin-left: 8em;
+}
+
+div.marco2{
+	width: 44em; /* ancho */
+	height:20em; /*altura*/
+	/**min-height: 20em;*/
+	background-color: #ffffff; /*fondo*/
+	margin: 0.125em 3.125em; /*margenes externos, primera medida margen arriba y abajo, segunda medida margen a los lados */
+	padding: 0.625em; /*mergen interno. importante */
+	border: 0.625em solid #4197e7; /*borde */
+	display: inline-block; /*bloque que se puede expandir se localiza a lado del otro bloque */
+	position: relative;
+	top: 0; /*arriba hacia abajo*/
+	bottom:0;
+	right: 0;
+	/**left: 7.5em /*de derecha a izquierda*/
+}
+
+div.marco3{
+	width: 27em; /* ancho */
+	height:20em; /*altura*/
+	/**min-height: 20em;*/
+	background-color: #ffffff; /*fondo*/
+	margin: 0.125em 3.125em; /*margenes externos, primera medida margen arriba y abajo, segunda medida margen a los lados */
+	padding: 0.625em; /*mergen interno. importante */
+	border: 0.625em solid #10cbec; /*borde */
+	display: inline-block; /*bloque que se puede expandir se localiza a lado del otro bloque */
+	position: relative;
+	top: 0; /*arriba hacia abajo*/
+	bottom:0;
+	right: 0;
+	/**left: 7.5em /*de derecha a izquierda*/
+}
+
+div.marco4{
+	width: 27em; /* ancho */
+	height:auto; /*altura*/
+	/**min-height: 20em;*/
+	background-color: #ffffff; /*fondo*/
+	margin: 0.125em 3.125em; /*margenes externos, primera medida margen arriba y abajo, segunda medida margen a los lados */
+	padding: 0.625em; /*mergen interno. importante */
+	border: 0.625em solid #10cbec; /*borde */
+	display: inline-block; /*bloque que se puede expandir se localiza a lado del otro bloque */
+	position: relative;
+	top: 0; /*arriba hacia abajo*/
+	bottom:0;
+	right: 0;
+	/**left: 7.5em /*de derecha a izquierda*/
+}
+nav.admin {
+	text-align: center;
+    width: 50%;
+	border:0;
+	height: 2em;
+	background-color:rgb(226, 141, 13);
+	padding: 0.05em;
+	position:block;
+	top:6.5em;
+	box-sizing: border-box;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.botonEnviarP{
+text-align: right;
+}
+div.botonADD{
+	float: right;
+}
+a.menu_inhab{
+	display: none;
+}
+select.puesto{
+	float: right;
+}
+table.marcoA{
+	margin-left: 30em;
+    margin-right: 10em;
+    border: 0.625em solid #eca710;
+}
+div.centroA{
+	height: auto;
+	min-height: 24em;
+	display: grid;
+    grid-template-columns: 6fr 1fr;
+	grid-gap: 0;
+	box-sizing: border-box;
+	position: static;
+	overflow: auto;
+    padding: 0.05em;
+	
+    
+}
+.marcoB{
+	border: 0.625em solid #10ddec;
+	
+	
+}
+#Contenerdor_modificar{
+	
+	display: inline-block;
+
+}
+#contenedor_buscar{
+	display: inline-block;
+}
+
+
+#crece{
+	transition: transform 1s;
+}
+#crece:hover{
+    transform: scale(2.5,2.5); 
+}
+select.puesto{
+	margin: 5em;
+
+	}
+	form.puesto{
+		
+		padding: 1em;
+		margin: 1em;
+	}
+	img.credencial{
+		padding: 1em;
+		margin: 2em;
+	}
+	form.boton{
+		padding: 2em;
+		margin-right: 1em;
+	}
+	
+	form.puestoM{
+		padding: 1em;
+		margin-right: 1em;	
+	}
